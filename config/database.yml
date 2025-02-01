@@ -1,0 +1,13 @@
+development:
+  adapter: postgresql
+  database: postgres_new
+  host: genie-staging.cqx74ksroviu.ap-south-1.rds.amazonaws.com
+  # host: localhost
+  # database: anarock_leads_production_aug10
+  # database: anarock_leads_test_aug10
+  pool: 20
+  timeout: 500000
+  username: postgres
+  password: XJjJV50Cc5FFRlR5Tp2H
+  variables:
+    statement_timeout: 500000
